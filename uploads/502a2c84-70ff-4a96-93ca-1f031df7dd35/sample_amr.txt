@@ -1,0 +1,151 @@
+comA	AAR13677.1	competence protein
+	ENV88739.1	hypothetical protein
+tetB	AAW51465.1	TetB
+tnpA	ABO33301.1	TnpA
+bla-oxa-66	AAW81338.1	beta-lactamase OXA-66
+tnpA	ACJ61336.1	TnpA
+guaA	EEX02087.1	GMP synthase (glutamine-hydrolyzing) domain protein
+	AEG42374.1	putative transposase
+msrE	AEG42376.1	macrolide efflux protein
+tnpA	ACJ61336.1	TnpA
+blaADC	WP_001211218.1	class C extended-spectrum beta-lactamase ADC-30
+tnpA	ACJ61336.1	TnpA
+blaOXA-160	ADB28891.1	class D beta-lactamase OXA-160
+bla-OXA-139	CAQ51348.1	beta-lactamase OXA-139
+	AEG42374.1	putative transposase
+blaOXA-160	ADB28891.1	class D beta-lactamase OXA-160
+tnpA	ACJ61336.1	TnpA
+		fragment of streptothricin acetyl-transferase (Sat)
+blaOXA-160	ADB28891.1	class D beta-lactamase OXA-160
+blaOXA	WP_000713530.1	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase OXA-72
+bla-OXA-139	CAQ51348.1	beta-lactamase OXA-139
+blaOXA-160	ADB28891.1	class D beta-lactamase OXA-160
+	ENV88739.1	hypothetical protein
+comA	AAR13677.1	competence protein
+tnpA	ACJ61336.1	TnpA
+aph(3')-VIa	WP_000422636.1	aminoglycoside O-phosphotransferase APH(3')-VIa
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+	CAJ77832.1	putative adenylyltransferase
+tnpA	ACJ61336.1	TnpA
+ari-1	CAB69042.1	beta-lactamase
+tnpA	ACJ61336.1	TnpA
+blaADC	WP_001211217.1	class C beta-lactamase ADC-25
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115
+tnpA	ACJ61336.1	TnpA
+	ABO10615.2	GMP synthetase
+	AEG42374.1	putative transposase
+	CAA31362.1	aadA gene product
+msrE	AEG42376.1	macrolide efflux protein
+sul1	AAB60006.1	dihydropteroate synthase
+tnpA	ACJ61336.1	TnpA
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115
+tnpA	ACJ61336.1	TnpA
+	ACO54027.1	Sul1
+	AEG42374.1	putative transposase
+sul1	WP_000946487.1	sulfonamide-resistant dihydropteroate synthase Sul1
+sul1	WP_000259032.1	sulfonamide-resistant dihydropteroate synthase Sul1
+	AEG42374.1	putative transposase
+comA	AAR13677.1	competence protein
+	ENV88739.1	hypothetical protein
+tnpA	ACJ61336.1	TnpA
+	CAJ77832.1	putative adenylyltransferase
+tnpA	ACJ61336.1	TnpA
+blaADC	WP_001211217.1	class C beta-lactamase ADC-25
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115
+tnpA	ACJ61336.1	TnpA
+	ABO10615.2	GMP synthetase
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+aph(3')-VIa	WP_000422636.1	aminoglycoside O-phosphotransferase APH(3')-VIa
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+tnpA	ABO33301.1	TnpA
+aacC1	AAB20441.1	aminoglycoside-(3)-N-acetyltransferase
+	AEG42374.1	putative transposase
+sul1	WP_000259032.1	sulfonamide-resistant dihydropteroate synthase Sul1
+	AEG42374.1	putative transposase
+comA	AAR13677.1	competence protein
+tnpA	ACJ61336.1	TnpA
+	ENV88739.1	hypothetical protein
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+aph(3')-VIa	WP_000422636.1	aminoglycoside O-phosphotransferase APH(3')-VIa
+tnpA	ACJ61336.1	TnpA
+	ABO10615.2	GMP synthetase
+blaADC	WP_001211217.1	class C beta-lactamase ADC-25
+tnpA	ACJ61336.1	TnpA
+	CAJ77832.1	putative adenylyltransferase
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115
+tnpA	ACJ61336.1	TnpA
+msrE	AEG42376.1	macrolide efflux protein
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+	ACO54027.1	Sul1
+sul1	WP_000946487.1	sulfonamide-resistant dihydropteroate synthase Sul1
+	AEG42374.1	putative transposase
+ari-1	CAB69042.1	beta-lactamase
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+tnp	AAA68494.2	transposase
+tnpA	ACJ61336.1	TnpA
+		fragment of streptothricin acetyl-transferase (Sat)
+	AEG42374.1	putative transposase
+ampC	CAB77444.1	beta-lactamase class C
+comA	AAR13677.1	competence protein
+	ENV88739.1	hypothetical protein
+tnpA	ACJ61336.1	TnpA
+	CAJ77832.1	putative adenylyltransferase
+tnpA	ACJ61336.1	TnpA
+tnp	AAA68494.2	transposase
+tnpA	ACJ61336.1	TnpA
+blaADC	WP_001211217.1	class C beta-lactamase ADC-25
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115
+tnpA	ACJ61336.1	TnpA
+	ABO10615.2	GMP synthetase
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+	CAA31362.1	aadA gene product
+msrE	AEG42376.1	macrolide efflux protein
+aph(3')-VIa	WP_000422636.1	aminoglycoside O-phosphotransferase APH(3')-VIa
+tnpA	ACJ61336.1	TnpA
+ari-1	CAB69042.1	beta-lactamase
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+	ACO54027.1	Sul1
+tnp	AAA68494.2	transposase
+	AEG42374.1	putative transposase
+tnp	AAA68494.2	transposase
+	AEG42374.1	putative transposase
+tnp	AAA68494.2	transposase
+tnpA	ACJ61336.1	TnpA
+	ENV88739.1	hypothetical protein
+comA	AAR13677.1	competence protein
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+	CAJ77832.1	putative adenylyltransferase
+tnpA	ACJ61336.1	TnpA
+blaADC	WP_001211217.1	class C beta-lactamase ADC-25
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115
+tnpA	ACJ61336.1	TnpA
+	ABO10615.2	GMP synthetase
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+aph(3')-VIa	WP_000422636.1	aminoglycoside O-phosphotransferase APH(3')-VIa
+tnpA	ACJ61336.1	TnpA
+	CAA31362.1	aadA gene product
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115
+tnpA	ACJ61336.1	TnpA
+ari-1	CAB69042.1	beta-lactamase
+tnpA	ACJ61336.1	TnpA
+blaOXA	WP_000713530.1	OXA-24 family carbapenem-hydrolyzing class D beta-lactamase OXA-72
+tnp	AAA68494.2	transposase
+	AEG42374.1	putative transposase
+aac(3)-I	WP_022542381.1	AAC(3)-I family aminoglycoside 3-N-acetyltransferase

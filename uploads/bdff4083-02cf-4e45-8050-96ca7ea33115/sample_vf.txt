@@ -1,0 +1,6 @@
+aacC1	AAB20441.1	aminoglycoside-(3)-N-acetyltransferase
+blaOXA-160	ADB28891.1	class D beta-lactamase OXA-160
+	ABO10615.2	GMP synthetase
+	ENV88739.1	hypothetical protein
+tnpA	ACJ61336.1	TnpA
+	ENV88739.1	hypothetical protein

@@ -1,0 +1,3 @@
+	AEG42374.1	putative transposase
+tnpA	ACJ61336.1	TnpA
+sul1	AAB60006.1	dihydropteroate synthase

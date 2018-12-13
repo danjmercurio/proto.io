@@ -1,0 +1,7 @@
+tnpA	ACJ61336.1	TnpA
+tnpA	ACJ61336.1	TnpA
+	CAJ77832.1	putative adenylyltransferase
+tnpA	ACJ61336.1	TnpA
+	ENV88739.1	hypothetical protein
+tnpA	ACJ61336.1	TnpA
+	CAJ77832.1	putative adenylyltransferase

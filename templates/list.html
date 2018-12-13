@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Proto.io</title>
+		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+	  	<script type="text/javascript" src="{{ url_for('static', filename='jquery.tablesorter.js') }}"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" style="background-color: aliceblue;">
+			    <div class="col-sm"><img height="100" src="{{ url_for('static', filename='dna.png') }}"></div>
+			    <div class="col-sm">
+			      <h1 class="float-right">Microbe Analytics</h1>
+			    </div>
+			</div>
+			<div class="row" style="background-color: aliceblue;">
+				<div class="col-sm">
+					<p class="float-right"><a href="/">New Sequence Analysis</a> | <a href="/list">List Sequence</a></p>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-sm">
+					<table class="table">
+						<thead style="cursor: pointer;"><th>ID</th>
+							<th>Facility</th>
+							<th>Patient Id</th>
+							<th>Collection Date</th>
+							<th>Analysis Date</th>
+							<th>Desc</th>
+						</thead>
+						<tbody>
+							{% for result in results %}
+							<tr>
+							    <td>{{ result.id }} </td>
+							    <td> {{ result.facility }} </td>
+							    <td> {{ result.patientid }} </td>
+							    <td> {{ result.collectionDate }} </td>
+							    <td> {{ result.analysisDate }} </td>
+							    <td> {{ result.description }} </td>
+
+
+						    </tr>
+						{% endfor %}
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<br />
+			
+		</div>
+		<script type="text/javascript" src="{{url_for('static', filename='list.js')}}"></script>
+		{% with messages = get_flashed_messages() %}
+		  {% if messages %}
+		    <ul class=flashes>
+		    {% for message in messages %}
+		      <li>{{ message }}</li>
+		    {% endfor %}
+		    </ul>
+		  {% endif %}
+		{% endwith %}
+	</body>
+</html>

@@ -1,0 +1,3 @@
+blaADC	WP_001211217.1	class C beta-lactamase ADC-25
+tnpA	ACJ61336.1	TnpA
+	ENV88739.1	hypothetical protein

@@ -1,0 +1,9 @@
+tnpA	ACJ61336.1	TnpA
+comA	AAR13677.1	competence protein
+tnpA	ACJ61336.1	TnpA
+blaOXA-160	ADB28891.1	class D beta-lactamase OXA-160
+comA	AAR13677.1	competence protein
+tnpA	ACJ61336.1	TnpA
+	AEG42374.1	putative transposase
+	AEG42374.1	putative transposase
+blaOXA-115	ABS71123.1	beta-lactamase OXA-115

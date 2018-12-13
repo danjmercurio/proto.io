@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Proto.io</title>
+		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+
+			  <script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			  crossorigin="anonymous"></script>
+		
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" style="background-color: aliceblue;">
+			    <div class="col-sm"><img height="100" src="{{ url_for('static', filename='dna.png') }}"></div>
+			    <div class="col-sm">
+			      <h1 class="float-right">Microbe Analytics</h1>
+			    </div>
+			</div>
+			<div class="row" style="background-color: aliceblue;">
+				<div class="col-sm">
+					<p class="float-right"><a href="/">New Sequence Analysis</a> | <a href="/list">List Sequence</a></p>
+
+
+				</div>
+			</div>
+			<br />
+			<form action="/upload" method="POST" enctype="multipart/form-data">	
+				<div class="row">
+					<div class="col-sm">
+						<div class="form-group">
+							 <label for="facility">Facility</label>
+	    					<input type="text" class="form-control" id="facility" name="facility">
+	    					<label for="patientid">Patient ID</label>
+	    					<input type="text" class="form-control" id="patientid" name="patientid">
+	    					<label for="collectionDate">Collection Date</label>
+	    					<input type="text" class="form-control" id="collectionDate" name="collectionDate">
+	    					<label for="analysisDate">Analysis Date</label>
+	    					<input type="text" class="form-control" id="analysisDate" name="analysisDate">
+	    					<label for="description">Description</label>
+	    					<textarea class="form-control" id="description" rows="3" name="description"></textarea>
+						</div>
+
+					</div>
+					<div class="col-sm">
+						<div class="form-group">
+							<div class="form-group">
+							    <label for="Sequence File 1">Sequence File 1</label>
+							    <input type="file" class="form-control-file" id="sequenceFile1" name="sequenceFile1">
+							    <label for="sequenceFile2">Sequence File 2</label>
+							    <input type="file" class="form-control-file" id="sequenceFile2" name="sequenceFile2">
+							</div>
+							<div class="form-group">
+								<input type="submit" class="form-control" value="Submit" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript" src="{{url_for('static', filename='form.js')}}"></script>
+		{% with messages = get_flashed_messages() %}
+		  {% if messages %}
+		    <ul class=flashes>
+		    {% for message in messages %}
+		      <li>{{ message }}</li>
+		    {% endfor %}
+		    </ul>
+		  {% endif %}
+		{% endwith %}
+	</body>
+</html>
